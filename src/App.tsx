@@ -1,15 +1,12 @@
 import './App.css'
+import Hero from './section/hero'
 
 function App() {
 
 
   return (
    <main>
-      <div>
-        <h1 className='sans-serif'>
-          my 3d pro
-        </h1>
-      </div>
+      <Hero/>
    </main>
   )
 }
