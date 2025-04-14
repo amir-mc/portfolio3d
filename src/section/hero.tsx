@@ -1,3 +1,4 @@
+import AnimatedCounter from "../components/animcounter";
 import Button from "../components/button";
 import HeroEx from "../components/heromodel/hero";
 import { words } from "../data/worditem";
@@ -28,7 +29,7 @@ const Hero = () => {
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Hi, i'm Amir , a Front-End developer a passion for code.
                     </p>
-                    <Button name="More" className="md:w-80 md:h-16 w-60 h-12"/>
+                    <Button name="More" id="button" className="md:w-80 md:h-16 w-60 h-12"/>
                 </header>
                 {/* 3D model */}
                 <figure>
@@ -37,6 +38,7 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
+            <AnimatedCounter/>
         </section>
      );
 }

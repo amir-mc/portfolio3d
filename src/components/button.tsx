@@ -1,11 +1,22 @@
 interface botton{
+    id:string
     name:string,
     className?:string
 }
 
-const Button = ({name,className}:botton) => {
+const Button = ({name,className,id}:botton) => {
     return ( 
-        <a className={`${className} cta-wrapper`}>
+        <a
+        onClick={(e)=>{
+            e.preventDefault()
+            const target= document.getElementById('counter')
+            if(target && id){
+                const offset= window.innerHeight * 0.15;
+                const top = target.getBoundingClientRect().top + window.screenY - offset;
+                window.scrollTo({top,behavior:'smooth'})
+            }
+        }}
+        className={`${className} cta-wrapper`}>
             <div className="cta-button group ">
             <div className="bg-circle"/>
             <span className='text'>
