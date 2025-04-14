@@ -7,7 +7,7 @@ const Showcase = () => {
         const project2Ref = useRef(null)
         const project3Ref = useRef(null)
         // ERROR IN SHOWCASE 
-        //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
+        
     }
     return ( 
         <section  id="work" className="app-showcase">
