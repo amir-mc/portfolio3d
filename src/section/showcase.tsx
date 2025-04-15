@@ -53,7 +53,7 @@ gsap.registerPlugin(ScrollTrigger)
                                 <h2>site</h2>
                             </div>
                         </div>
-                    
+                      
                     </div>
             </div>
 
