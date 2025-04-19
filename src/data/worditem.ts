@@ -1,8 +1,8 @@
-import { Lightbulb,Code,Triangle,Brain} from 'lucide-react';
+import { Lightbulb,CodeXml,Triangle,Brain,Github,Linkedin,} from 'lucide-react';
 import React from 'react';
 export const words=[
     {text:'idea', icon:React.createElement(Lightbulb, { size: 48 }) },
-    {text:'code  ', icon:React.createElement(Code, { size: 48 }) },
+    {text:'code  ', icon:React.createElement(CodeXml, { size: 48 }) },
     {text:'UI  ', icon:React.createElement(Triangle, { size: 48 }) },
     {text:'concepts  ', icon:React.createElement(Brain, { size: 48 }) },
  ]
@@ -17,13 +17,10 @@ export const words=[
       link: "#experience",
     },
     {
-      name: "Skills",
-      link: "#skills",
+      name: "Contact",
+      link: "#contact",
     },
-    {
-      name: "Testimonials",
-      link: "#testimonials",
-    },
+   
   ];
   
   const counterItems = [
@@ -244,20 +241,14 @@ export const words=[
   
   const socialImgs = [
     {
-      name: "insta",
-      imgPath: "/images/insta.png",
-    },
-    {
-      name: "fb",
-      imgPath: "/images/fb.png",
-    },
-    {
-      name: "x",
-      imgPath: "/images/x.png",
+      name: "Github",
+      icon:React.createElement(Github, { size: 30 }),
+      link:'https://github.com/amir-mc'
     },
     {
       name: "linkedin",
-      imgPath: "/images/linkedin.png",
+      icon: React.createElement(Linkedin, { size: 30 }),
+      link:'https://www.linkedin.com/in/amir-fooladi-ab9866269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
   ];
   

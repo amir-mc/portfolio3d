@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="hero-layout">
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="hero-text">
-                        <h1>Shapiier
+                        <h1>|
                                 <span className='slide'>
                                     <span className='wrapper'>
                                          {
@@ -27,7 +27,7 @@ const Hero = () => {
                         </h1>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, i'm Amir , a Front-End developer a passion for code.
+                            Hi, i'm Amir , a Front-End developer.
                     </p>
                     <Button name="More" id="button" className="md:w-80 md:h-16 w-60 h-12"/>
                 </header>
