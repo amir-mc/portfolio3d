@@ -32,10 +32,10 @@ const Navbar = () => {
                         }
                      </ul>
                 </nav>
-                <a href="#contant" className="contant-btn group ">
+                <a href="/" className="contant-btn group ">
                     <div className="inner">
                         <span>
-                            Contact me
+                            Front-End
                         </span>
                     </div>
                 </a>

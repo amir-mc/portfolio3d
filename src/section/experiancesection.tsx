@@ -89,7 +89,7 @@ const Experience = () => {
     return ( 
         <section id="experience" className="w-full md:mt-40 mt-20 section-padding xl:px-0">
             <div className="w-full h-full md:px-20 px-5">
-                <TitleHeader title='Professional work Experience' sub='my Project Overview' />
+                <TitleHeader title='Professional Project Experience' sub='my Project Overview' />
                 <div className="mi-32 relative">
                     <div className="relative z-50 xl:space-y-32 space-y-10">
                         {expCards.map((card)=>(
@@ -115,11 +115,9 @@ const Experience = () => {
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
-                        <p className="my-5 text-white-50">
-                          🗓️&nbsp;{card.date}
-                        </p>
+                        
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          {card.art}
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(

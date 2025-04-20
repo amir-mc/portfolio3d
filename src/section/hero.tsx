@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="hero-layout">
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="hero-text">
-                        <h1>|
+                        <h1> Amir |
                                 <span className='slide'>
                                     <span className='wrapper'>
                                          {

@@ -55,10 +55,10 @@ gsap.registerPlugin(ScrollTrigger)
                     </div>
                     <div className="text-content">
                         <h2>
-                            site
+                            Cryptogram
                         </h2>
                         <p className="text-white-50 md:text-xl">
-                            Aliqua velit duis qui amet consectetur reprehenderit laborum ea tempor in culpa culpa voluptate excepteur.
+                           The social media for crypto fan !
                         </p>
                     </div>
                     </div>
@@ -70,7 +70,7 @@ gsap.registerPlugin(ScrollTrigger)
                                     <img src="images/mobile2.png"  alt=""/>
                                     </a>
                                 </div>
-                                <h2>site</h2>
+                                <h2>Gameing web</h2>
                             </div>
                             <div ref={project3Ref} className="project">
                                 <div className="image-wrapper bg-[#ffe7eb]">
@@ -79,7 +79,7 @@ gsap.registerPlugin(ScrollTrigger)
                                     </a>
                                 </div>
 
-                                <h2>site</h2>
+                                <h2>Sanity web article</h2>
                             </div>
                         </div>
                       
