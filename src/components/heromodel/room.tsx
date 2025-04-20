@@ -4,10 +4,9 @@ Command: npx gltfjsx@6.5.3 optimized-room.glb --types
 */
 
 import * as THREE from 'three'
-import React from 'react'
 import { useGLTF } from '@react-three/drei'
 import { GLTF } from 'three-stdlib'
-
+import { ThreeElements } from "@react-three/fiber";
 type GLTFResult = GLTF & {
   nodes: {
     _________6_blinn1_0: THREE.Mesh
@@ -48,11 +47,11 @@ type GLTFResult = GLTF & {
     lambert1: THREE.MeshStandardMaterial
     phong1: THREE.MeshStandardMaterial
   }
-  animations: GLTFAction[]
-}
 
-export function Room(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('/models/optimized-room.glb') as GLTFResult
+}
+ 
+export function Room(props:ThreeElements["group"]) {
+  const { nodes, materials } = useGLTF('/models/optimized-room.glb') as unknown as GLTFResult;
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={materials.blinn1} />
@@ -92,3 +91,5 @@ export function Room(props: JSX.IntrinsicElements['group']) {
 }
 
 useGLTF.preload('/models/optimized-room.glb')
+
+

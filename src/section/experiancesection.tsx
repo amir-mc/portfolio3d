@@ -93,11 +93,11 @@ const Experience = () => {
                 <div className="mi-32 relative">
                     <div className="relative z-50 xl:space-y-32 space-y-10">
                         {expCards.map((card)=>(
-                            <div className="exp-card-wrapper" key={card.date}>
+                            <div className="exp-card-wrapper" key={card.title}>
                                 <div className="xl:w-2/6">
                                     <Glowcard card={card} >
                                         <div>
-                                            <img src={card.imgPath} alt="" />
+                                           
                                         </div>
                                     </Glowcard>
                                     </div>
