@@ -4,7 +4,7 @@ import TitleHeader from "../components/titleheader";
 import emailjs from "@emailjs/browser"
 
 const ContactUs = () => {
-    const formRef = useRef(null);
+  const formRef = useRef<HTMLFormElement>(null);
     const [loading, setLoading] = useState(false);
     const [form, setForm] = useState({
       name: "",
@@ -19,8 +19,14 @@ const ContactUs = () => {
   
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
-      setLoading(true); // Show loading state
-  
+      setLoading(true);
+    
+      if (!formRef.current) {
+        console.error("Form reference is null");
+        setLoading(false);
+        return;
+      }
+    
       try {
         await emailjs.sendForm(
           import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -28,13 +34,12 @@ const ContactUs = () => {
           formRef.current,
           import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
         );
-  
-        // Reset form and stop loading
+    
         setForm({ name: "", email: "", message: "" });
       } catch (error) {
-        console.error("EmailJS Error:", error); // Optional: show toast
+        console.error("EmailJS Error:", error);
       } finally {
-        setLoading(false); // Always stop loading, even on error
+        setLoading(false);
       }
     };
   
