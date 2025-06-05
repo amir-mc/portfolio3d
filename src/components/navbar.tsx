@@ -33,10 +33,10 @@ const Navbar = () => {
                         }
                      </ul>
                 </nav>
-                <a href="/" className="contant-btn group ">
+                <a href="blogin-two.vercel.app" className="contant-btn group ">
                     <div className="inner">
                         <span>
-                            Front-End
+                            My Personal Blog
                         </span>
                     </div>
                 </a>
