@@ -34,7 +34,7 @@ const Navbar = () => {
                         }
                      </ul>
                 </nav>
-               <div className="flex items-center space-x-4">
+               <div className="flex items-center space-x-4">  
                     {/* Personal Blog Link (Purple) */}
                     <a 
                         href="https://blogin-two.vercel.app/" 
