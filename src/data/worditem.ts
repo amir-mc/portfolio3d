@@ -142,39 +142,44 @@ export const words=[
   
   const expCards = [
     {
-      review: "the web page like X (twitter) responsive , using imageToolkit for uploding image  ",
+      review: "the e-commerce web page to sell any products",
       
       logoPath: "/images/logots.png",
-      title: "Medix",
-      art:'Front',
-      responsibilities: [
-        "Next js",
-        "Typescript",
-        "tailwindCss , shadcn ",
-      ],
-    },
-    {
-      review: "the social media for a Crypto Fan Like instagram , using Clerk auth for authentication  ",
-      
-      logoPath: "/images/Next.png",
-      title: "cryptogram",
-      art:'Front',
-      responsibilities: [
-        "Next js",
-        "Typescript",
-        "tailwindCss , shadcn",
-      ],
-    },
-    {
-      review: "the web page article for a daily blog with Back-end and database for uploading new image and video and note ",
-      
-      logoPath: "/images/React.png",
-      title: "Blogin",
+      title: "Digi Store",
       art:'Front/Back-End',
       responsibilities: [
         "Next js",
-        "Javascript,Typescript,NodeJs,MangoDB",
-        "tailwindCss , shadcn",
+        "Typescript",
+        "Prisma , ORM ",
+        "Clerk auth",
+        "Imagekit "
+      ],
+    },
+    {
+      review: "My private blog page ",
+      
+      logoPath: "/images/Next.png",
+      title: "Blogin",
+      art:'Front/back-End',
+      responsibilities: [
+        "Next js",
+        "Typescript",
+        "Prisma , ORM ",
+        "Next auth",
+        "Imagekit "
+      ],
+    },
+    {
+      review: "the web 3.0 page to support and donated me by Crypto currency(Ethereum) ",
+      
+      logoPath: "/images/React.png",
+      title: "Blogin",
+      art:'Front/Solidity',
+      responsibilities: [
+        "React js",
+        "Typescript",
+        "ethereum smart contract",
+        "tailwindCss",
       ],
     },
   ];

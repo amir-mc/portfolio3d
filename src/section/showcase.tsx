@@ -48,17 +48,17 @@ gsap.registerPlugin(ScrollTrigger)
                 {/* LEFT SIDE */}
                 <div ref={project1Ref}  className="first-project-wrapper">
                     <div  className="image-wrapper">
-                        <a href="https://github.com/amir-mc/cryptogram">
-                        <img src="/images/logos/blogin.png" alt=""/>
+                        <a href="https://github.com/amir-mc/mini-ecommerce">
+                        <img src="/images/logos/digi.png" alt=""/>
                             
                         </a>
                     </div>
                     <div className="text-content">
                         <h2>
-                            Cryptogram
+                            <span className="text-blue-300">DIGI</span>STORE
                         </h2>
                         <p className="text-white-50 md:text-xl">
-                           The social media for crypto fan !
+                           The E-ecommerce web page !
                         </p>
                     </div>
                     </div>
@@ -66,20 +66,20 @@ gsap.registerPlugin(ScrollTrigger)
                         <div className="project-list-wrapper overflow-hidden">
                             <div className="project" ref={project2Ref}>
                                 <div className="image-wrapper bg-[#ffefdb]">
-                                    <a href="https://github.com/amir-mc/game">
-                                    <img src="/images/logos/digi.png"  alt=""/>
+                                    <a href="https://github.com/amir-mc/Blogin">
+                                    <img src="/images/logos/blogin.png"  alt=""/>
                                     </a>
                                 </div>
-                                <h2>Gameing web</h2>
+                                <h2>My personal blog</h2>
                             </div>
                             <div ref={project3Ref} className="project">
                                 <div className="image-wrapper bg-[#ffe7eb]">
-                                    <a href="https://github.com/amir-mc/article">
+                                    <a href="https://github.com/amir-mc/buymcoff">
                                     <img src="/images/logos/web3.png" alt=""/>
                                     </a>
                                 </div>
 
-                                <h2>Sanity web article</h2>
+                                <h2>WEB 3.0 Buy me Coffee</h2>
                             </div>
                         </div>
                       
