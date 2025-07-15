@@ -49,7 +49,7 @@ gsap.registerPlugin(ScrollTrigger)
                 <div ref={project1Ref}  className="first-project-wrapper">
                     <div  className="image-wrapper">
                         <a href="https://github.com/amir-mc/cryptogram">
-                        <img src="/images/mobile1.png" alt=""/>
+                        <img src="/images/logos/blogin.png" alt=""/>
                             
                         </a>
                     </div>
@@ -67,7 +67,7 @@ gsap.registerPlugin(ScrollTrigger)
                             <div className="project" ref={project2Ref}>
                                 <div className="image-wrapper bg-[#ffefdb]">
                                     <a href="https://github.com/amir-mc/game">
-                                    <img src="images/mobile2.png"  alt=""/>
+                                    <img src="/images/logos/digi.png"  alt=""/>
                                     </a>
                                 </div>
                                 <h2>Gameing web</h2>
@@ -75,7 +75,7 @@ gsap.registerPlugin(ScrollTrigger)
                             <div ref={project3Ref} className="project">
                                 <div className="image-wrapper bg-[#ffe7eb]">
                                     <a href="https://github.com/amir-mc/article">
-                                    <img src="images/project3.png" alt=""/>
+                                    <img src="/images/logos/web3.png" alt=""/>
                                     </a>
                                 </div>
 
